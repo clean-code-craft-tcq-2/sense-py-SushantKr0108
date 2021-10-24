@@ -3,7 +3,7 @@ import math
 def calculateStats(numbers):
   computedStats = {}
   
-  if(numbers==[]):
+  if numbers==[]:
     computedStats["min"] = float("nan")
     computedStats["max"] = float("nan")
     computedStats["avg"] = float("nan")
